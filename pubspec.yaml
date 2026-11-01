@@ -1,5 +1,6 @@
+
 name: adhkar_app
-description: A professional task manager built with Flutter.
+description: تطبيق أذكاري والقرآن الكريم
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,7 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   shared_preferences: ^2.2.2
+  http: ^1.2.2
+  just_audio: ^0.9.42
+  google_fonts: ^6.2.1
 
 flutter:
   uses-material-design: true
+  
